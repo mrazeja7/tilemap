@@ -1,0 +1,16 @@
+{
+  "name": "tilemap",
+  "version": "1.0.0",
+  "description": "An tilemap rendering example.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan H. Bean",
+  "license": "MIT",
+  "dependencies": {
+    "react-scripts": "^1.0.14"
+  }
+}
