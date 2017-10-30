@@ -1,7 +1,10 @@
 { "height":10,
+ "infinite":false,
  "layers":[
         {
-         "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 2, 2, 2, 2, 2, 2, 3, 3, 2, 4, 4, 1, 4, 2, 2, 2, 3, 3, 2, 2, 2, 2, 4, 4, 4, 2, 3, 3, 2, 2, 2, 2, 2, 2, 1, 2, 3, 3, 3, 1, 3, 2, 2, 2, 4, 4, 3, 3, 2, 2, 3, 2, 3, 2, 2, 4, 4, 3, 2, 2, 3, 2, 3, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+         "compression":"gzip",
+         "data":"H4sIAAAAAAAAC42NQQoAMAjD1O7\/b95lQgnb8BAESVtFhAYsox60W+bmJeOew42X1yQ8nR8z3ck+4dL9edwlU49sKMJAiJABAAA=",
+         "encoding":"base64",
          "height":10,
          "name":"Tile Layer 1",
          "opacity":1,
@@ -11,26 +14,23 @@
          "x":0,
          "y":0
         }],
+ "nextobjectid":1,
  "orientation":"orthogonal",
- "properties":
-    {
-
-    },
  "renderorder":"right-down",
+ "templategroups":[],
+ "tiledversion":"2017.10.11",
  "tileheight":64,
  "tilesets":[
         {
+         "columns":2,
          "firstgid":1,
          "image":".\/tilesets\/example.png",
          "imageheight":130,
          "imagewidth":128,
          "margin":0,
          "name":"example",
-         "properties":
-            {
-
-            },
          "spacing":0,
+         "tilecount":4,
          "tileheight":64,
          "tileproperties":
             {
@@ -39,9 +39,17 @@
                  "solid":"true"
                 }
             },
+         "tilepropertytypes":
+            {
+             "2":
+                {
+                 "solid":"string"
+                }
+            },
          "tilewidth":64
         }],
  "tilewidth":64,
+ "type":"map",
  "version":1,
  "width":10
 }
